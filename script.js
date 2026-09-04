@@ -3,7 +3,7 @@
    ========================================================= */
 
 // Change this if your FastAPI backend runs somewhere else.
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://mind-score-prediction.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("year").textContent = new Date().getFullYear();
